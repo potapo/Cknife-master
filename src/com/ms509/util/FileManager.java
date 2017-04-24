@@ -442,7 +442,7 @@ public class FileManager {
 		{
 			tmp = "./	1970-00-00 00:00:00	0	0\n../	1970-00-00 00:00:00	0	0";//初始化
 		}
-		String[] filedicts = tmp.split("@@@@@");
+		String[] filedicts = tmp.split("@@@@@"); 
 		return filedicts;
 	}
 	
